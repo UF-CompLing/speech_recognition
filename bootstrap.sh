@@ -4,8 +4,6 @@ export DEBIAN_FRONTEND=noninteractive
 # Exit on first error
 set -e
 
-# Change to working directory
-cd /vagrant
 
 # Check git installation
 apt-get update
