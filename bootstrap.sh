@@ -20,7 +20,7 @@ git ls-files -z | xargs -0 rm
 git checkout .
 
 # Import helper functions
-. bootstrap_functions.sh
+source bootstrap_functions.sh
 
 # Run installation procedures
 echo "RUNNING: 'install_theano'"
