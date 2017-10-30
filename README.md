@@ -20,10 +20,10 @@ Download and install Vagrant [here](https://www.vagrantup.com/downloads.html)
 
 Installing Git on your host machine will make life a lot easier. If you do not already have Git, you can download it here.
 
-  Open the command line/terminal and navigate to where you’d like to store your vagrant box.
-       Mac/Linux: ```cd ~/Desktop```
-       Windows: ```cd C:\Users\your-username\Desktop```
-  User git clone https://github.com/UF-CompLing/speech_recognition.git to create a local copy of the repository
+  * Open the command line/terminal and navigate to where you’d like to store your vagrant box.
+       * Mac/Linux: ```cd ~/Desktop```
+       * Windows: ```cd C:\Users\your-username\Desktop```
+  * Use git clone https://github.com/UF-CompLing/speech_recognition.git to create a local copy of the repository
 
 ### 4. Run Vagrant setup
 
