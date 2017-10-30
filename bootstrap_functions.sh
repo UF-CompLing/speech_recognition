@@ -19,24 +19,14 @@ git diff --cached --name-only -z | xargs -n 50 -0 git add -f
 #git checkout .
 
 # Run installation procedures
-echo "RUNNING: 'install_theano'"
-install_theano
+#echo "RUNNING: 'install_theano'"
+#install_theano
 
-echo "RUNNING: 'install_kaldi'"
-install_kaldi
+#echo "RUNNING: 'install_kaldi'"
+#install_kaldi
 
-echo "RUNNING: 'install_pdnn'"
-install_pdnn
-
-
-
-
-
-
-
-
-
-
+#echo "RUNNING: 'install_pdnn'"
+#install_pdnn
 
 
 function install_theano() {
