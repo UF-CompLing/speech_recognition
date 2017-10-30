@@ -20,7 +20,7 @@ git diff --cached --name-only -z | xargs -n 50 -0 git add -f
 
 # Import helper functions
 echo "source "
-source bootstrap_functions.sh
+. bootstrap_functions.sh
 echo "after source"
 
 # Run installation procedures
