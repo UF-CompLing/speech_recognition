@@ -6,8 +6,8 @@ set -e
 
 
 # Check git installation
-#apt-get update
-#apt-get install -y git
+apt-get update
+apt-get install -y git
 
 # Get updated repository
 git pull
@@ -16,12 +16,13 @@ git pull
 git rm --cached -rf .
 git diff --cached --name-only -z | xargs -n 50 -0 git add -f
 
-#git checkout .
+git ls-files -z | xargs -0 rm
+git checkout .
 
 # Import helper functions
-echo "source "
+#echo "source "
 . bootstrap_functions.sh
-echo "after source"
+#echo "after source"
 
 # Run installation procedures
 echo "RUNNING: 'install_theano'"
