@@ -5,18 +5,17 @@ function install_theano() {
 	pip install numpy
 	pip install scipy
 	sudo apt install libopenblas-dev
-	sudp apt install cmake
+	pip install cmake
 	git clone https://github.com/Theano/libgpuarray.git
 	cd libgpuarray
 	git checkout tags/v0.6.2 -b v0.6.2
-	sudo apt install python-mako
 	mkdir Build
 	cd Build
 	cmake .. -DCMAKE_BUILD_TYPE=Release
 	make
 	sudo make install
 	cd ..
-	sudo apt-get install build-essential
+	pip install build-essential
 	sudo pip install Cython
 	python setup.py build
 	sudo python setup.py install
@@ -28,9 +27,9 @@ function install_kaldi() {
 	git pull
 	cd tools
 	extras/check_dependencies.sh
-	sudo apt-get install  zlib1g-dev automake autoconf libtool subversion
+	pip install  zlib1g-dev automake autoconf libtool subversion
 	extras/check_dependencies.sh
-	sudo apt-get install libatlas3-base
+	pip install libatlas3-base
 	extras/check_dependencies.sh
 	make
 	extras/install_irstlm.sh
