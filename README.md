@@ -68,10 +68,10 @@ Open the terminal using
 ### Windows
 
 On Windows, you'll likely need to use Putty to access your vagrant box.
-    • Hosname: localhost
-    • Port: 2222
-    • Username: vagrant
-    • Password: vagrant
+    * Hosname: localhost
+    * Port: 2222
+    * Username: vagrant
+    * Password: vagrant
 
 ## Check for Updates
 
