@@ -39,7 +39,7 @@ What is happening here:
 Open the terminal using
 
 ```{bash}
-  cd ~/desktop/ChomplingDev
+  cd ~/desktop/speech_recognition
   vagrant up
 ```
 
@@ -48,7 +48,7 @@ Open the terminal using
 ### Windows
 
 ```{cmd}
-  cd ~\Desktop\ChomplingDev
+  cd ~\Desktop\speech_recognition
   vagrant plugin install vagrant-hostsupdater
   vagrant up
 ```
@@ -61,7 +61,7 @@ Open the terminal using
 ### Mac & Linux
 
 ```{bash}
-  cd ~/desktop/ChomplingDev
+  cd ~/desktop/speech_recognition
   vagrant ssh
 ```
 
