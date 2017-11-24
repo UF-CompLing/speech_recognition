@@ -50,4 +50,4 @@ Open the terminal using
 [More info on Windows command prompt](http://www.bleepingcomputer.com/tutorials/windows-command-prompt-introduction/)
 
 ## Source Where This Idea Came From
-[Here] (http://reservoir-conceptors.blogspot.com/2015/07/emotion-recognition-and-tone.html)
+http://reservoir-conceptors.blogspot.com/2015/07/emotion-recognition-and-tone.html
